@@ -67,4 +67,15 @@ Input[type = number]{
     font-family: 'Courier New', Courier, monospace;  
 }
 
+.poundsOutput{
+    background-color: skyblue;
+    height: 60px;
+    text-align: left;
+    margin:4px;
+    padding: 5px;
+    border-radius: 5px;
+    color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;  
+}
+
 

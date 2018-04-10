@@ -1,51 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css">
-    <title>Weight Converter</title>
-</head>
-<body>
-<div class="container">
-    <h1>Weight Converter</h1>
-    <form>
-        <input 
-        class="ibsInput"
-        type="number" 
-        placeholder="Enter Pounds...">
-    </form>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="styles.css">
+        <title>Weight Converter</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Weight Converter</h1>
+            <form>
+                <input 
+                class="ibsInput"
+                type="number" 
+                placeholder="Enter Pounds...">
+                <select class="ibsInput" id="changeWeight">
+                    <option value="pounds">Pounds</option>
+                    <option value="gram">Gram</option>
+                    <option value="ounces">Ounces</option>
+                    <option value="kilogram">Kilogram</option>
+                </select>
+            </form>
 
-<div class="output">
-    <Div class="gramOutput">
-         <h3>Grams: </h3>
-         <div class="gOutput">
+            <div class="output">
+                <div class="gramOutput">
+                    <h3>Grams: </h3>
+                    <div class="gOutput">
 
-         </div>
-
-     </Div>
-
-    <Div class="kiloGramOutput">
-            <h3>Kilograms:</h3>
-            <div class="kgOutput">
-
-            </div>
-   
-    </Div>
-
-    <Div class="ouncesOutput">
-                <h3>Ounces:</h3>
-                <div class="ozOutput">
+                    </div>
 
                 </div>
-       
-            </Div>
 
-</div>
+                <div class="kiloGramOutput">
+                        <h3>Kilograms:</h3>
+                        <div class="kgOutput">
+
+                        </div>
+            
+                </div>
+
+                <div class="ouncesOutput">
+                    <h3>Ounces:</h3>
+                    <div class="ozOutput"></div>
+                </div>
+
+                <div class="poundsOutput">
+                    <h3>Pounds:</h3>
+                    <div class="pOutput"></div>
+                </div>
+
+            </div>
 
 
-</div>
-<script src="app.js"></script>
-</body>
+        </div>
+        <script src="app.js"></script>
+    </body>
 </html>
